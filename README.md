@@ -1,4 +1,4 @@
 incubator
 =========
 
-Application incubator - The starting point of newborn apps
+Application incubator - The starting point of newborn SPA's
