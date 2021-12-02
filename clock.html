@@ -42,19 +42,21 @@
     twoDecimal: function(number){
         //number = (app.short) ? number * -1 : number;
         return number.toFixed(2);
-    }
-
+    },
+    myNewMet: function(){
+      setTimeout(() => {app.theprice+=100}, 1000);
+    },
   },
   
   created: function() {
     
   },
   mounted: function(){      
-    
+    this.myNewMet();
   }
   
 })
-setTimeout(() => {app.theprice+=100}, 1000);
+
 </script>
 </body>
 </html>
